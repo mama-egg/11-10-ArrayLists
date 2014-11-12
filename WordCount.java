@@ -1,5 +1,5 @@
-// your name
-// class
+// Kinsey Clyne
+// 9Nitrogen
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -11,10 +11,15 @@ public class WordCount {
         String txt = "";
         
         // create an ArrayList of type String to store the unique words
-//-----> YOUR CODE HERE
+//-----> theres no need to yell
+        //jeez
+        for(int i = 0; i < txt.length; i++) {
+          ArrayListS[i] = txt.substring(0, txt.indexOf(" "));
+          String[] ArrayListS = //?????????
         
         // create an ArrayList of type Integer to store the count of each time the unique word appears
 //-----> YOUR CODE HERE
+        String[] ArrayListI = 
 
         while(input.hasNextLine()) {
             // get the next line from the input file
