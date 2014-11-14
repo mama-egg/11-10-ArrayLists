@@ -11,11 +11,14 @@ public class WordCount {
         String txt = "";
         
         // create an ArrayList of type String to store the unique words
-//-----> theres no need to yell
-        //jeez
-        for(int i = 0; i < txt.length; i++) {
+        int c = txt.length;
+        for(int a = 0; a < c; a++) {
+         String[] ArrayListS = new String[null];
+          int b = txt.substring(0, txt.indexOf(" "));
+          txt = txt.substring(txt.indexOf(" "), txt.length - 1));
           ArrayListS[i] = txt.substring(0, txt.indexOf(" "));
-          String[] ArrayListS = //?????????
+          ArrayListS.add(b);
+        }
         
         // create an ArrayList of type Integer to store the count of each time the unique word appears
 //-----> YOUR CODE HERE
