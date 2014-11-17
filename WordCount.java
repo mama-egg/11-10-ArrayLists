@@ -14,14 +14,14 @@ public class WordCount {
         int c = txt.length;
         for(int a = 0; a < c; a++) {
          String[] ArrayListS = new String[null];
-          int b = txt.substring(0, txt.indexOf(" "));
-          txt = txt.substring(txt.indexOf(" "), txt.length - 1));
-          ArrayListS[i] = txt.substring(0, txt.indexOf(" "));
+          String b = txt.substring(0, txt.indexOf(" "));
+          txt = txt.substring(txt.indexOf(" " + 1), txt.length));
           ArrayListS.add(b);
         }
         
         // create an ArrayList of type Integer to store the count of each time the unique word appears
 //-----> YOUR CODE HERE
+    public static int EachTime(ArrayListS,)
         String[] ArrayListI = 
 
         while(input.hasNextLine()) {
