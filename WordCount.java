@@ -19,8 +19,16 @@ public class WordCount {
           ArrayListS.add(b);
         }
         
-        // create an ArrayList of type Integer to store the count of each time the unique word appears
-//-----> YOUR CODE HERE
+        //create an ArrayList of type Integer to store the count of each time the unique word appears
+        Integer[] ArrayListI = new Integer[0];
+        String[] ArrayListS2 = new String[null];
+        for(int counter = 0; counter < ArrayListS.length(); counter++) {
+         ArrayListS2.add(ArrayListS[counter]);
+        }
+        for(int counter = 0; counter < ArrayListS.length(); counter++) {
+         
+        }
+
     public static int EachTime(ArrayListS,)
         String[] ArrayListI = 
 
